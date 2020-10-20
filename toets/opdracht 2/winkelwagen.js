@@ -3,7 +3,7 @@ function Artikel (item, maat, voorraad, kleur, aantal ) {
     let size = maat;
     let stock = voorraad;
     let color = kleur;
-    let aantal = aantal;
+    let amount = aantal;
 
     this.getItem = function (){
         return product;
@@ -18,7 +18,7 @@ function Artikel (item, maat, voorraad, kleur, aantal ) {
         return color
     }
     this.getAantal = function () {
-        return aantal
+        return amount
     }
     this.showDetail = function () {
         console.log("Maat: " + size + "Kleur: " + color);
