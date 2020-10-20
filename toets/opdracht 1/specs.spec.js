@@ -1,6 +1,6 @@
 describe('Testje 1', function() {
     it('should have the correct title', function () {
-        expect(document.title).toBe('Voorbeeld toets');
+        expect(document.title).toBe('Verbeteringen');
         expect(document.charset).toBe('UTF-8');
     });
 });
