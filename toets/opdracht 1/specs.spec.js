@@ -1,11 +1,11 @@
 describe('Pagina moet de juiste titel hebben', function() {
-    it('should have the correct title', function () {
+    it('should have the correct title and the correct UTF', function () {
         expect(document.title).toBe('Verbeteringen');
         expect(document.charset).toBe('UTF-8');
     });
 });
 
-describe('Testje 2', function () {
+describe('Het item en nummer moeten aantal kloppen', function () {
     it('item moet gelijk zijn aan item', function () {
         expect(unitTest.item).toBe('item');
     });
@@ -14,13 +14,13 @@ describe('Testje 2', function () {
     });
 });
 
-describe('Testje 3', function () {
+describe('Moet de juiste beschrijving hebben.', function () {
     it('beschrijving moet kloppen', function () {
         expect(unitTest.beschrijving).toBe('Beschrijving');
     });
 });
 
-describe('Testje 4', function () {
+describe('de boodschap moet kloppen', function () {
     it('de boodschap moet Hallo zijn', function () {
         expect(unitTest.boodschap).toEqual('Hallo');
     });
