@@ -1,6 +1,8 @@
-describe('Pagina moet de juiste titel hebben', function() {
-    it('should have the correct title and the correct UTF', function () {
+describe('Pagina moet de juiste titel hebben en de juiste UTF', function() {
+    it('should have the correct title', function () {
         expect(document.title).toBe('Verbeteringen');
+    });
+    it('should have the correct UTF', function () {
         expect(document.charset).toBe('UTF-8');
     });
 });
