@@ -1,11 +1,31 @@
 function Student(naam, studentId) {
-
-    let obj = this;
-    this.name = naam + 'Hi';
-    this.id = studentId;
-    obj.cijfers = [];
+    let name = naam + 'Hi';
+    let id = studentId;
+    let cijfers = [];
 
     let klas = '';
+
+    this.setName = function (naam) {
+        let name = naam;
+        return name;
+    }
+
+    this.getName = function () {
+        return name;
+    }
+
+    this.setId = function (studentId) {
+        let id = studentId;
+        return id;
+    }
+
+    this.getId = function () {
+        return id;
+    }
+
+    this.getCijfers = function () {
+        return cijfers;
+    }
 
 }
 
