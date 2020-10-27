@@ -25,6 +25,13 @@ function Artikel (item, maat, voorraad, kleur, aantal ) {
     }
 }
 
+function WinkelWagen () {
+    new Artikel("Spijkerbroek", "L", 1, "Grijs", 1);
+    return Artikel;
+}
+
+console.log(WinkelWagen);
+
 
 
 
